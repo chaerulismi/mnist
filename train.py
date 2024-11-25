@@ -50,10 +50,10 @@ def test(dataloader, model, loss_fn):
 
 
 if __name__ == '__main__':
-    train_images_path = '/Users/bytedance/PycharmProjects/mnist/data/train-images-idx3-ubyte'
-    train_labels_path = '/Users/bytedance/PycharmProjects/mnist/data/train-labels-idx1-ubyte'
-    test_images_path = '/Users/bytedance/PycharmProjects/mnist/data/t10k-images-idx3-ubyte'
-    test_labels_path = '/Users/bytedance/PycharmProjects/mnist/data/t10k-labels-idx1-ubyte'
+    train_images_path = 'data/train-images-idx3-ubyte'
+    train_labels_path = 'data/train-labels-idx1-ubyte'
+    test_images_path = 'data/t10k-images-idx3-ubyte'
+    test_labels_path = 'data/t10k-labels-idx1-ubyte'
 
     transform = lambda x: x / 255.0
 

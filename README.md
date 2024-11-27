@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 - Create a `data/` directory
 - Download the MNIST dataset and put them inside the `data/` directory.
+
+
 ![image](https://github.com/user-attachments/assets/2e60ae7f-703b-422f-98fd-1eafa09c9dc3)
 
 
